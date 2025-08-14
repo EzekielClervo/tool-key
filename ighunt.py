@@ -10,4 +10,3 @@ decoded_code = base64.b64decode(encoded_script).decode("utf-8")
 
 # Execute the decoded Python code
 exec(decoded_code)
-.
